@@ -10,7 +10,7 @@
 		$rootScope.$emit('selectNote', id);
 	}
 	$rootScope.$on('noteUpdated', function(event,data) {
-		$scope.server.update();
+		c.server.update();
 	});
 }]]></client_script>
         <controller_as>c</controller_as>
@@ -50,14 +50,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-30 20:19:24</sys_created_on>
         <sys_id>cfb5a5e9db8648907ecedc50cf9619b6</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Notes List</sys_name>
         <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
         <sys_update_name>sp_widget_cfb5a5e9db8648907ecedc50cf9619b6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-30 21:27:09</sys_updated_on>
+        <sys_updated_on>2019-12-30 21:37:35</sys_updated_on>
         <template><![CDATA[<div class="panel panel-default">
   <div class="panel-heading clearfix">
     <h3 class="panel-title pull-left">
